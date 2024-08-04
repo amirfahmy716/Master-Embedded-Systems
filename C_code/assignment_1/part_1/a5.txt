@@ -1,0 +1,22 @@
+/*
+ Author      : amir fahmy
+ Version     :
+ Copyright   : Your copyright notice
+ Description :Assignment_1 in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+char ch;
+int main() {
+
+	printf("Enter a character: ");
+	fflush(stdin);fflush(stdout);
+	scanf("%c",&ch);
+
+	printf("ASCII value of %c = %d",ch ,ch);
+
+	return 0;
+}

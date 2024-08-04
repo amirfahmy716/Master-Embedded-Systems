@@ -1,0 +1,28 @@
+/*
+ Author      : amir fahmy
+ Version     :
+ Copyright   : Your copyright notice
+ Description :EX6: C Program to Calculate Sum of Natural Numbers, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int number;
+int sum =0;
+int count ;
+int main() {
+
+	printf("Enter your Natural Number : ");
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&number);
+	for(count=1;count<=number;count++)
+	{
+		sum +=count;
+	}
+
+	printf("Sum of Natural Numbers = %d",sum);
+
+	return 0;
+}

@@ -1,0 +1,22 @@
+/*
+ Author      : amir fahmy
+ Version     :
+ Copyright   : Your copyright notice
+ Description :Assignment_1 in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int numberone;
+int numbertwo;
+int main() {
+
+	printf("Enter two integers: ");
+	fflush(stdin);fflush(stdout);
+	scanf("%d%d",&numberone,&numbertwo);
+	printf("Sum : %d",(numberone + numbertwo));
+
+	return 0;
+}

@@ -1,0 +1,37 @@
+/*
+ Author      : amir fahmy
+ Version     :
+ Copyright   : Your copyright notice
+ Description :EX7: C Program to Find Factorial of a Number, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int number;
+int fact =1;
+int count ;
+int main() {
+
+	printf("Enter your Number : ");
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&number);
+	if (number >0){
+
+		for(count=1;count<=number;count++)
+
+		{
+			fact *=count;
+		}
+		printf("Factorial of a Number %d = %d",number,fact);
+	}
+	else if(number == 0 )
+	{
+		printf("Factorial of zero  = 1");
+	}
+	else {
+		printf("error");
+	}
+	return 0;
+}

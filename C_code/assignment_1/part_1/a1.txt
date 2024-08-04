@@ -1,0 +1,28 @@
+/*
+ Author      : amir fahmy
+ Version     :
+ Copyright   : Your copyright notice
+ Description :Assignment_1 in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+
+	printf("C Programming\n");
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+

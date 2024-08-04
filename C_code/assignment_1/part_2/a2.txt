@@ -1,0 +1,33 @@
+/*
+ Author      : amir fahmy
+ Version     :
+ Copyright   : Your copyright notice
+ Description :EX2: C Program to Check Vowel or Consonant, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+char ch;
+char Upper_letter;
+char Lower_letter;
+int main() {
+
+	printf("Enter your Letter : ");
+	fflush(stdin);fflush(stdout);
+	scanf("%c",&ch);
+	Upper_letter = (ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U');
+	Lower_letter =(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u');
+	if(Upper_letter || Lower_letter){
+		printf("your Letter is Vowel");
+	}
+	else
+	{
+		printf("your Letter is Consonant");
+	}
+
+
+
+	return 0;
+}

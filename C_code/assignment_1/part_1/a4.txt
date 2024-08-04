@@ -1,0 +1,24 @@
+/*
+ Author      : amir fahmy
+ Version     :
+ Copyright   : Your copyright notice
+ Description :Assignment_1 in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+float numberone;
+float numbertwo;
+float product;
+int main() {
+
+	printf("Enter two numbers: ");
+	fflush(stdin);fflush(stdout);
+	scanf("%f%f",&numberone,&numbertwo);
+	product = numberone * numbertwo ;
+	printf("product : %f",product);
+
+	return 0;
+}

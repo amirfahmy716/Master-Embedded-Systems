@@ -1,0 +1,22 @@
+/*
+ Author      : amir fahmy
+ Version     :
+ Copyright   : Your copyright notice
+ Description :Assignment_1 in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int number;
+int main() {
+
+	printf("Enter a integer:");
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&number);
+	printf("You entered: %d",number);
+
+	return 0;
+}
+

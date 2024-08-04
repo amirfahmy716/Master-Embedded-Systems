@@ -1,0 +1,35 @@
+/*
+ Author      : amir fahmy
+ Version     :
+ Copyright   : Your copyright notice
+ Description :EX3:C Program to Find the Largest Number Among Three Numbers, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+float numberone;
+float numbertwo;
+float numberthree;
+int main() {
+
+	printf("Enter your Numbers : ");
+	fflush(stdin);fflush(stdout);
+	scanf("%f%f%f",&numberone,&numbertwo,&numberthree);
+
+	if((numberone>numbertwo) && (numberone>numberthree)){
+		printf("Numberone is the biggest");
+	}
+	else if((numbertwo>numberone) && (numbertwo>numberthree))
+	{
+		printf("Numbertwo is the biggest");
+	}
+	else
+	{
+		printf("Numberthree is the biggest");
+	}
+
+
+	return 0;
+}

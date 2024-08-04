@@ -1,0 +1,30 @@
+/*
+ Author      : amir fahmy
+ Version     :
+ Copyright   : Your copyright notice
+ Description :EX5: C Program to Check Whether a Character is an Alphabet or not, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+char ch;
+int main() {
+
+printf("Enter your Characterr : ");
+	fflush(stdin);fflush(stdout);
+	scanf("%c",&ch);
+
+	if((ch>='a' && ch<='z') || (ch>='A' && ch<='Z')){
+		printf("Character is an Alphabet");
+	}
+
+	else
+	{
+		printf("Character not Alphabet ");
+	}
+
+
+	return 0;
+}
